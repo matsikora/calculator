@@ -1,3 +1,5 @@
-from std_operations import Add
+from std_operations import add
 
-print(Add(2,2))
+print(add(2,2))
+
+print(subtract(2,2))
