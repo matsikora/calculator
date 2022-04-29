@@ -10,4 +10,5 @@ def multiply(a,b):
 def reducemultiply(*list):
    pass
 
-
+#def saaaa():
+#
