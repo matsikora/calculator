@@ -10,5 +10,8 @@ def multiply(a,b):
 def reducemultiply(*list):
    pass
 
+def divide(a,b):
+   return a/b
+
 #def saaaa():
 #
