@@ -7,7 +7,9 @@ jobs:
          - name: Checking some dependencies
            run: python --version; pip --version
          - name: Install extra dpednencies
-           run: pip install -U numpy
+           run: pip install -U numpy pytest
          - uses: actions/checkout@v1
          - name: Build
            run: python main.py
+         - name: Test
+           run: pytest
