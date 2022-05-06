@@ -5,7 +5,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
          - name: Checking some dependencies
-           run: pythin --version; pip --version
+           run: python --version; pip --version
          - name: Install extra dpednencies
            run: pip install -U numpy
          - uses: actions/checkout@v1
