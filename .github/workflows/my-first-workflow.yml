@@ -8,6 +8,6 @@ jobs:
            run: pythin --version; pip --version
          - name: Install extra dpednencies
            run: pip install -U numpy
-         - uses: actions:checkout@v1
+         - uses: actions/checkout@v1
          - name: Build
            run: python main.py
